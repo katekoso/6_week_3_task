@@ -1,0 +1,55 @@
+.nav {
+    display: grid;
+    background-image: url(../assets/images/background-1.png);
+    width: 100vw;
+    height: 60px;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo, .header-menu {
+    color: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 5px 0px 0px 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+}
+
+
+.header-right {
+    display: grid;
+    grid-template-columns: 1.4fr 0.3fr 1.5fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-size: 10px;
+}
