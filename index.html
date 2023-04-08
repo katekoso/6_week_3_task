@@ -30,7 +30,7 @@
           <li><a class="header-menu" href="#">Landing</a></li>
         </ul>
         <section class="header-right">
-          <p class="header-menu log-in">Log In / Registration</p>
+          <p class="header-menu">Log In / Registration</p>
           <svg
             width="1"
             height="37"
@@ -53,22 +53,225 @@
               </radialGradient>
             </defs>
           </svg>
-          <p class="header-menu book-table">Book Table</p>
+          <p class="header-menu">Book Table</p>
         </section>
       </nav>
     </header>
     <main class="main">
-      <section class="welcome"></section>
-      <section class="booking"></section>
-      <section class="about-us"></section>
+      <section class="welcome">
+        <section class="welcome-column-1">
+          <p class="hashtag gericht">#Gericht</p>
+          <p class="hashtag">#Bar</p>
+        </section>
+        <section class="weclome-column-2">
+          <img
+            class="welcome-img"
+            src="./assets/images/welcome-table.png"
+            alt="Фото бара"
+          />
+          <p class="name">On The Rocks</p>
+          <svg
+            class="line2"
+            width="1"
+            height="61"
+            viewBox="0 0 1 61"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0.5 61L0.500006 9.53674e-07" stroke="white" />
+          </svg>
+          <p class="scroll">scroll</p>
+        </section>
+        <section class="welcome-column-3">
+          <section class="slider">
+            <p class="one">01</p>
+            <div class="line3"></div>
+            <p class="numbers">02</p>
+            <p class="numbers">03</p>
+            <p class="numbers">04</p>
+          </section>
+        </section>
+      </section>
+      <section class="booking">
+        <object
+          class="svg-text"
+          type="image/svg+xml"
+          data="./assets/images/signature-text.svg"
+        ></object>
+        <object
+          class="svg-spoons"
+          type="image/svg+xml"
+          data="./assets/images/signature-spoons.svg"
+        ></object>
+        <section class="inner_box">
+          <p class="small-text">Reservations</p>
+          <svg
+            class="yellow-spoon"
+            width="40"
+            height="7"
+            viewBox="0 0 40 9"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z"
+              fill="#DCCA87"
+            />
+          </svg>
+          <p class="big-text first">Book A Table</p>
+          <form class="dialog-box">
+            <select class="form">
+              <option value="first option">1 Person</option>
+              <option value="second option">2 People</option>
+              <option value="third option">3 People</option>
+              <option value="forth option">4 People</option>
+            </select>
+            <input type="date" class="form" value="12/03/2021" />
+            <input type="time" class="form" value="11.00AM" />
+          </form>
+          <button class="button">Book Now</button>
+        </section>
+      </section>
+      <!--<section class="about-us"></section>
       <section class="drinks"></section>
       <section class="happy-hours"></section>
-      <section class="menu"></section>
-      <section class="find-us"></section>
-      <section class="subscribe"></section>
+      <section class="menu"></section>-->
+      <section class="find-us">
+        <section class="find-us-column-1">
+          <p class="small-text">Contact</p>
+          <svg
+            class="yellow-spoon-2"
+            width="40"
+            height="7"
+            viewBox="0 0 40 9"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z"
+              fill="#DCCA87"
+            />
+          </svg>
+          <p class="big-text two">Find Us</p>
+          <p class="grey-text">
+            Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
+          </p>
+          <p class="opening-hours">Opening Hours</p>
+          <p class="time">Mon - Fri: 10:00 am - 02:00 am</p>
+          <p class="time">Sat - Sun: 10:00 am - 03:00 am</p>
+          <button class="button visit-us">Visit us</button>
+        </section>
+
+        <section class="find-us-column-2">
+          <div class="square top"></div>
+          <div class="square bottom"></div>
+          <img
+            src="./assets/images/find-us-image.png"
+            alt="Фото стакана с напитком"
+            class="find-us-image"
+          />
+        </section>
+      </section>
     </main>
+    <section class="between">
+      <object
+        class="svg-text-between"
+        type="image/svg+xml"
+        data="./assets/images/signature-text.svg"
+      ></object>
+      <object
+        class="svg-spoons-between"
+        type="image/svg+xml"
+        data="./assets/images/signature-spoons.svg"
+      ></object>
+    </section>
     <footer class="footer">
-      <address class="contacts"></address>
+      <section class="subscribe">
+        <section class="inner-subscribe">
+          <p class="small-text">Newsletter</p>
+          <svg
+            class="yellow-spoon-3"
+            width="40"
+            height="7"
+            viewBox="0 0 40 9"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z"
+              fill="#DCCA87"
+            />
+          </svg>
+          <p class="big-text subscribe-big">Subscribe To Our Newsletter</p>
+          <p class="under-text">And never miss latest Updates!</p>
+          <form class="input-box">
+            <input
+              type="text"
+              class="form subscribe-form"
+              placeholder="Email Address"
+            />
+            <button class="button subscribe-button">Subscribe</button>
+          </form>
+        </section>
+      </section>
+      <section class="footer-info">
+        <section class="first-part">
+          <address class="contacts">
+            <p class="yellow-text">Contact Us</p>
+            <p class="grey-text">9 W 53rd St, New York, NY 10019, USA</p>
+            <p class="grey-text">+1 212-344-1230</p>
+            <p class="grey-text">+1 212-555-1230</p>
+          </address>
+        </section>
+        <section class="middle-part">
+          <p class="yellow">gericht</p>
+          <p class="under-text">
+            "The best way to find yourself is to lose yourself in the <br />
+            <br />
+            service of others."
+          </p>
+          <svg
+            class="yellow-spoon"
+            width="40"
+            height="7"
+            viewBox="0 0 40 9"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z"
+              fill="#DCCA87"
+            />
+          </svg>
+          <section class="socials">
+            <object
+              class="facebook"
+              type="image/svg+xml"
+              data="./assets/images/facebook.svg"
+            ></object>
+            <object
+              class="twitter"
+              type="image/svg+xml"
+              data="./assets/images/twitter.svg"
+            ></object>
+            <object
+              class="insta"
+              type="image/svg+xml"
+              data="./assets/images/insta.svg"
+            ></object>
+          </section>
+          <p class="grey-text">2021 Gerícht. All Rights reserved.</p>
+        </section>
+        <section class="working-hours">
+          <section class="smaller-section">
+            <p class="yellow-text">Working Hours</p>
+            <p class="grey-text">Monday-Friday:</p>
+            <p class="grey-text">08:00 am - 12:00 pm</p>
+            <p class="grey-text">Saturday - Sunday:</p>
+            <p class="grey-text">07:30 am - 11:00 pm</p>
+          </section>
+        </section>
+      </section>
     </footer>
   </body>
 </html>
